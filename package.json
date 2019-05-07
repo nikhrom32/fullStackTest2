@@ -1,0 +1,13 @@
+{
+  "name": "testApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./testProject/frontend/src/index.js --output ./testProject/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./testProject/frontend/src/index.js --output ./testProject/frontend/static/frontend/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
